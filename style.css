@@ -1,0 +1,117 @@
+/* Styles go here */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+body {
+  background-color: #728565;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    margin-bottom: 20px; 
+}
+
+#wrapper {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+header {
+  background-color: #681B14;
+  overflow: hidden; 
+  padding: 20px 30px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+article {
+  padding: 30px;
+}
+
+.row {
+  margin-bottom: 20px;
+  display: block;
+  height: auto;
+}
+
+.twelveColumns {
+  width: 100%;
+}
+
+.fourColumns {
+  width: 20%;
+}
+
+.fourColumns img {
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+
+#nav {
+  list-style: none;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav .active a {
+  color: #fff;
+  opacity: 1;
+}
+
+#nav li a {
+  color: #fff;
+  opacity: 0.6;
+  padding: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+.small {
+  font-size: 0.8em;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.red {
+  color: #c0392b;
+  font-size: 14px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+footer {
+  color: #fff;
+  font-size: 0.85em;
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  opacity: 0.7;
+}
